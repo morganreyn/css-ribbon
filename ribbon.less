@@ -1,0 +1,55 @@
+@ribbon-width : 63px;
+@ribbon-height : 70px;
+
+.ribbon {
+  width: @ribbon-width;
+  height: @ribbon-height;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  color: white;
+  font-weight: bold;
+  font-size: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  vertical-align: middle;
+  background-image: url("../img/ribbon-bottom.png"); /* TODO: No images */
+  background-size: @ribbon-width @ribbon-height;
+  border-right: 1px solid lightgrey;
+  border-bottom: 1px solid white;
+
+  /* TEXT */
+  .ribbon-1l {
+      padding-top: 22px;
+  }
+
+  .ribbon-2l {
+      padding-top: 14px;
+  }
+
+  /* COLOR */
+  .ribbon-black {
+      background-color: black;
+  }
+
+  .ribbon-blue {
+      background-color: blue;
+  }
+
+  .ribbon-brown {
+      background-color: brown;
+  }
+
+  .ribbon-gold {
+      background-color: goldenrod;
+  }
+
+  .ribbon-green {
+      background-color: green;
+  }
+
+  .ribbon-lightblue {
+      background-color: skyblue;
+  }
+
+  /* TODO: GROW ON HOVER */
+}
